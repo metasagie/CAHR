@@ -1,0 +1,366 @@
+{
+  "prompts": [
+    {
+      "text": "Am I… ______?",
+      "url": "https://drive.google.com/file/d/1oZYMhdSHDs6XpF7S5DdB3wFrTQh65DN1/view?usp=drive_link"
+    },
+    {
+      "text": "Enough. I tire of ______.",
+      "url": "https://drive.google.com/file/d/1AsmwK3DR9jgh_YlDbFTx_d80sbfBKCLr/view?usp=drive_link"
+    },
+    {
+      "text": "Great job, Casey! Everybody loved ______.",
+      "url": "https://drive.google.com/file/d/138Fg19yM1yPmk1GVTnoyLDdeVt_o6FsB/view?usp=drive_link"
+    },
+    {
+      "text": "One day, this little girl will be ______.",
+      "url": "https://drive.google.com/file/d/1xMkj3srVLg5zDTb-YaXql4w9EObpMIPW/view?usp=drive_link"
+    },
+    {
+      "text": "Take it from me, toots. I do not recommend ______.",
+      "url": "https://drive.google.com/file/d/1C0Yi8GKYZZhWHCtOcizk9kypEGXZ0bwB/view?usp=drive_link"
+    },
+    {
+      "text": "The ULTIMATE experience: ______ in VR.",
+      "url": "https://drive.google.com/file/d/12jyLj8p9NHceH226eMRGaJGk2X1v4puN/view?usp=drive_link"
+    },
+    {
+      "text": "Tonight is the night. The night of ______.",
+      "url": "https://drive.google.com/file/d/1aABIsYES3e8HVvcFbEp4HwXqYNBLPE-3/view?usp=drive_link"
+    },
+    {
+      "text": "Uuuooooohhhhh, did you just say \"______?!\"",
+      "url": "https://drive.google.com/file/d/1JpV0UZd8yN-_MjGCk-yzChL0CamMxH2I/view?usp=drive_link"
+    },
+    {
+      "text": "What are they laughing at?",
+      "url": "https://drive.google.com/file/d/1L4qNG0DtStobFxijzjD2k-Y7A2JqWEbZ/view?usp=drive_link"
+    },
+    {
+      "text": "What are they singing about?",
+      "url": "https://drive.google.com/file/d/15T3yYqEHZPCO3C4uNl8defgaGuHULHLw/view?usp=drive_link"
+    },
+    {
+      "text": "What is he thinking about?",
+      "url": "https://drive.google.com/file/d/18O6GL7GVtqqhkmTx7FuUhRvmowYdaTHZ/view?usp=drive_link"
+    },
+    {
+      "text": "You're a tiger! You're crawling through the jungle. Now you're ______! Beautiful.",
+      "url": "https://drive.google.com/file/d/1lebQA--zFu7wcdDvCpKB1oJn3aJMToEy/view?usp=drive_link"
+    },
+    {
+      "text": "______?! Good heavens!",
+      "url": "https://drive.google.com/file/d/145ihfEPDD9wgMdUhkaisIp9_JSxzB9ji/view?usp=drive_link"
+    },
+    {
+      "text": "Bitch please. I invented ______.",
+      "url": "https://drive.google.com/file/d/1gm-x1Tz1Vib_qDUHO5oYKZtqMmJsSQ_m/view?usp=drive_link"
+    },
+    {
+      "text": "Every day, I'm grateful for ______.",
+      "url": "https://drive.google.com/file/d/1REbeYqwMY_gybTpbE8hNRyNDEgU2I6A8/view?usp=drive_link"
+    },
+    {
+      "text": "Father, forgive me for ______.",
+      "url": "https://drive.google.com/file/d/1yS2tzPFVJhtzbnfbzkcvnZdKuavyU8WZ/view?usp=drive_link"
+    },
+    {
+      "text": "Have you seen my son, Bogdan? He leave 30 years ago to look for ______.",
+      "url": "https://drive.google.com/file/d/1rmQM6y-ri5bxm8N24W6Jghs71VJxvqAK/view?usp=drive_link"
+    },
+    {
+      "text": "Its all good, dude! I've got noooo problem with ______.",
+      "url": "https://drive.google.com/file/d/1LkahRBP9gBte_Eg3KWdvWTepA0vlIYod/view?usp=drive_link"
+    },
+    {
+      "text": "Mmmmm… honey… you smell like ______.",
+      "url": "https://drive.google.com/file/d/12QUekqWlKckfa9qSQ0fLceZzBJxLK1j6/view?usp=drive_link"
+    },
+    {
+      "text": "These guys are ready for ______.",
+      "url": "https://drive.google.com/file/d/1BZv1OW0wqmlzCyoh_N3EwahpPUoF7Ee-/view?usp=drive_link"
+    },
+    {
+      "text": "What does this look like to you?",
+      "url": "https://drive.google.com/file/d/156PtVCMYOwtNPOTahHO_yrJiehzRTdEB/view?usp=drive_link"
+    },
+    {
+      "text": "What does this make you think about?",
+      "url": "https://drive.google.com/file/d/1vZElzTQS97rywOjguHWc_Jp8XY3ui5rD/view?usp=drive_link"
+    },
+    {
+      "text": "Why is this man crying?",
+      "url": "https://drive.google.com/file/d/18ni3HBN38KgdiRiVwpzqEtNj9J3YoxsQ/view?usp=drive_link"
+    },
+    {
+      "text": "Why is this walrus so frustrated?",
+      "url": "https://drive.google.com/file/d/1WOfNP_5iJvwyXvF3HR36X3OWHmOHA8rv/view?usp=drive_link"
+    },
+    {
+      "text": "10-23, this is Officer monroe requesting immediate backup. We've got a situation involving ______.",
+      "url": "https://drive.google.com/file/d/1JK_IloaAwvZ7sg3u1OaAkkDMje0rrzu_/view?usp=drive_link"
+    },
+    {
+      "text": "HELLO WELCOME TO BUSINESS ARE YOU LOOKING FOR ______?",
+      "url": "https://drive.google.com/file/d/1OZwBRAZlwqgYiebn8WcKV3E4phg9NR3Y/view?usp=drive_link"
+    },
+    {
+      "text": "How are we feeling today, Mrs. Rosenberg? Are we still having trouble with ______?",
+      "url": "https://drive.google.com/file/d/1V0fMSwnDhhesTXiUGHax06AL0nsoJCO2/view?usp=drive_link"
+    },
+    {
+      "text": "I HAVE ______.",
+      "url": "https://drive.google.com/file/d/1uNWTAAmFTc2E7w1LeXaxBX5Fpra5l4Oz/view?usp=drive_link"
+    },
+    {
+      "text": "Introducing Marvel's newest hero, Thunt the Scoundrel! His superpower is ______.",
+      "url": "https://drive.google.com/file/d/1Q7Ld-mqGrGawVj35qkpzrjY6EGbNCSpj/view?usp=drive_link"
+    },
+    {
+      "text": "Timmy plays the drums so he doesn't have to think about ______.",
+      "url": "https://drive.google.com/file/d/1UY5ZKIy43ywj7clDgLc6Wtg936xEg363/view?usp=drive_link"
+    },
+    {
+      "text": "What's the name of their band?",
+      "url": "https://drive.google.com/file/d/1AcWih_ftpQ3r_0QA4MCTCbFklAZt9kdb/view?usp=drive_link"
+    },
+    {
+      "text": "You're probably wondering, how did I get here? Well, let me tell you a little story about ______.",
+      "url": "https://drive.google.com/file/d/1osPWrimw_cH7YcciK5BGsJySD_0tDtfJ/view?usp=drive_link"
+    }
+  ],
+  "responses": [
+    {
+      "text": "[chimpanzee squatting]",
+      "url": "https://drive.google.com/file/d/1Nt8XcjY7NTCGCRnoBfAKkR2WqwPfPh4L/view?usp=drive_link"
+    },
+    {
+      "text": "[Ronald McDonald]",
+      "url": "https://drive.google.com/file/d/1uD909DLNQLuOyIK9Nn7GTX6BqlPzVR6V/view?usp=drive_link"
+    },
+    {
+      "text": "A compass that always points towards Robert De Niro's penis.",
+      "url": "https://drive.google.com/file/d/1iJur_gJi39CD3xGTpE-nRmam26jKeZ5P/view?usp=drive_link"
+    },
+    {
+      "text": "AIR GUITARRRRR, WAHHHH!",
+      "url": "https://drive.google.com/file/d/1yRGMrHKpZc55nnWGZ_vFhW_dHHuH3bjM/view?usp=drive_link"
+    },
+    {
+      "text": "Amazon Prime.",
+      "url": "https://drive.google.com/file/d/1NXw92AU4cr-n2oyrMO4hT63DvOFGDUhe/view?usp=drive_link"
+    },
+    {
+      "text": "Getting fingered behind this dumpster.",
+      "url": "https://drive.google.com/file/d/1E1cOmQOSQp--Z7XLlsruz6xYe2BBq5ke/view?usp=drive_link"
+    },
+    {
+      "text": "Having just masturbated.",
+      "url": "https://drive.google.com/file/d/11dCjfqKStN0RER304j3EcH8RLXbg7-W6/view?usp=drive_link"
+    },
+    {
+      "text": "Heaven.",
+      "url": "https://drive.google.com/file/d/1j2YqgmCnOClT4Lc9y-oGyGeMH-DH6bcO/view?usp=drive_link"
+    },
+    {
+      "text": "Jerry the Jizzer and his stinky pogo stick.",
+      "url": "https://drive.google.com/file/d/138FTqFqzSVzYhodGzvzKUA7JcxeZNrxt/view?usp=drive_link"
+    },
+    {
+      "text": "Joining the hot beautiful ladies of talent agancy, Levchanko Talent LLC.",
+      "url": "https://drive.google.com/file/d/1OgGaNs36R1QIwUCBDsL2JW-TTKgKCow8/view?usp=drive_link"
+    },
+    {
+      "text": "Kneevis.",
+      "url": "https://drive.google.com/file/d/1XGxB1CKubo9oWaNZWw0tfWq0J0TcZ1q_/view?usp=drive_link"
+    },
+    {
+      "text": "Old Joe givin' those plums a nice squeeze.",
+      "url": "https://drive.google.com/file/d/1x-QhPn1PchcjayfslLPUKtB_rooIEALd/view?usp=drive_link"
+    },
+    {
+      "text": "Posting my opinions on Facebook.",
+      "url": "https://drive.google.com/file/d/1W5-gJ8-6C6gyIwFJhJpLmMfMR2_FGM-z/view?usp=drive_link"
+    },
+    {
+      "text": "Sending urgent funds to the Crown Prince of Nigeria.",
+      "url": "https://drive.google.com/file/d/1cehXyVniWJDb2cNj9Jnh2TA2kVG3LcE9/view?usp=drive_link"
+    },
+    {
+      "text": "Ted Cruz.",
+      "url": "https://drive.google.com/file/d/1cuv2Qj3FsDZsRSuP_s5_aBRayh3mcFQX/view?usp=drive_link"
+    },
+    {
+      "text": "This cowboy.",
+      "url": "https://drive.google.com/file/d/11GDWMlNKHfRfMbHKW0VNmEFAtc9DE9jU/view?usp=drive_link"
+    },
+    {
+      "text": "Using parametric statistics when the data are clearly not from a normal distribution.",
+      "url": "https://drive.google.com/file/d/1zbCzA7bCmvia0qaC5LF8W2HjSFYTeNfm/view?usp=drive_link"
+    },
+    {
+      "text": "YOUR DOOOOOOM.",
+      "url": "https://drive.google.com/file/d/10BL-CSVmufgbvquF8WhcS12gDvR3EaY1/view?usp=drive_link"
+    },
+    {
+      "text": "[model on beach]",
+      "url": "https://drive.google.com/file/d/1Uho-woRLTnedYv2tB_Q_o_cmdg6JZ65o/view?usp=drive_link"
+    },
+    {
+      "text": "[pooping dog]",
+      "url": "https://drive.google.com/file/d/1W48KnXHtg7OTES7oWPATN0UZLhMMeN2g/view?usp=drive_link"
+    },
+    {
+      "text": "A dance man, big guy, great moves, always dancing — this guy.",
+      "url": "https://drive.google.com/file/d/1IGjnV8g2Tr1UrHRkNQq4mVQnpUBOQtIb/view?usp=drive_link"
+    },
+    {
+      "text": "A guy who's probably racist.",
+      "url": "https://drive.google.com/file/d/19hsCwzL09n3212eEs-oz-adIs-DUpkQY/view?usp=drive_link"
+    },
+    {
+      "text": "A perfectly regular duck with nothing wrong with it.",
+      "url": "https://drive.google.com/file/d/171U2pkOrBLXBJyvMMCUq8gEJ_ojo7MG6/view?usp=drive_link"
+    },
+    {
+      "text": "A yam.",
+      "url": "https://drive.google.com/file/d/1AuZlqKfCIhbAO2ye7NuMck7mI_aGIHQa/view?usp=drive_link"
+    },
+    {
+      "text": "Eating a man's brain for $10,000.",
+      "url": "https://drive.google.com/file/d/1Yp2q-8LuHWiUHTHGlgJGVWvxjLG8Ils7/view?usp=drive_link"
+    },
+    {
+      "text": "Horse yoga.",
+      "url": "https://drive.google.com/file/d/1yxzoYx_lIqaNrAS1b04OBgJ4S9m897T8/view?usp=drive_link"
+    },
+    {
+      "text": "Legs.",
+      "url": "https://drive.google.com/file/d/1JUoJfgqqoipIij6jhfXff9gt3rfYidmX/view?usp=drive_link"
+    },
+    {
+      "text": "ME, YOUR SON!",
+      "url": "https://drive.google.com/file/d/1wSLyIacoH6AdQvTPfyBDjk2PFZBrxsG8/view?usp=drive_link"
+    },
+    {
+      "text": "My stinky pussy!",
+      "url": "https://drive.google.com/file/d/1Z-DuVu_NmUOyqcmYVi7Txq0grOTXiXm3/view?usp=drive_link"
+    },
+    {
+      "text": "Regret.",
+      "url": "https://drive.google.com/file/d/1Ok0IxoLy7T1iNkYTxf98RjsZJxhRBYCg/view?usp=drive_link"
+    },
+    {
+      "text": "Soulgasming.",
+      "url": "https://drive.google.com/file/d/1rALiYjkmoM1LDMoi_KEoZr74iyxT0-aT/view?usp=drive_link"
+    },
+    {
+      "text": "Taking shrooms with this guy.",
+      "url": "https://drive.google.com/file/d/1cFYNUX1MG5Vlo-EUUMsKWs43mpVHWGVT/view?usp=drive_link"
+    },
+    {
+      "text": "The Cactus of Ultimate Sexual Pleasure.",
+      "url": "https://drive.google.com/file/d/1sLEQdOxMw1n7940iXBZaTMagEcczAQoa/view?usp=drive_link"
+    },
+    {
+      "text": "The secrets we all hide in our big pants.",
+      "url": "https://drive.google.com/file/d/1dG4b884HDRXdWgsmvE0ntyG4Ri5dHrYM/view?usp=drive_link"
+    },
+    {
+      "text": "Tubes.",
+      "url": "https://drive.google.com/file/d/1TViHQaw2fOlpZO7hVuH70RIryoRmz_Tz/view?usp=drive_link"
+    },
+    {
+      "text": "Your red-hot pecker.",
+      "url": "https://drive.google.com/file/d/1RjEdXCeAba2pB98klHU0bKbatbJ7AuGx/view?usp=drive_link"
+    },
+    {
+      "text": "An all-night fuck sesh with your dad's client Robert.",
+      "url": "https://drive.google.com/file/d/1U4iCsVQK1mwFtcQWt4J7KaxQeNzQViYb/view?usp=drive_link"
+    },
+    {
+      "text": "Asian representation.",
+      "url": "https://drive.google.com/file/d/1XM4skLB9kVl1GqOL4Yc8hL76jg7eTINX/view?usp=drive_link"
+    },
+    {
+      "text": "Bald Taylor Swift.",
+      "url": "https://drive.google.com/file/d/16x_12HcZOwknpqBarx_9lipuzLO_89A_/view?usp=drive_link"
+    },
+    {
+      "text": "Beard.",
+      "url": "https://drive.google.com/file/d/1f9AaipS3PlnpoiGgE5ouQjjhFdogyVda/view?usp=drive_link"
+    },
+    {
+      "text": "Becoming a man.",
+      "url": "https://drive.google.com/file/d/1VC700ZqpjwTC4d7nkIE_5UDnNJmwPzus/view?usp=drive_link"
+    },
+    {
+      "text": "COVID-34.",
+      "url": "https://drive.google.com/file/d/1kxcguQz1AIksZLmF_yrLqBM3mLKBE7Dy/view?usp=drive_link"
+    },
+    {
+      "text": "Finding out that my dad is my brother and my mom is my father and my sister is my mother and also I'm their dog.",
+      "url": "https://drive.google.com/file/d/1kxcguQz1AIksZLmF_yrLqBM3mLKBE7Dy/view?usp=drive_link"
+    },
+    {
+      "text": "Giving everyone at the nursing home chlamydia.",
+      "url": "https://drive.google.com/file/d/1eVWTecXewac57RuEEeCCQd3sDhRc2gPL/view?usp=drive_link"
+    },
+    {
+      "text": "Going to shake a guy's hand, noticing that his hand is a fish, and pretending not to notice that his hand is a fish.",
+      "url": "https://drive.google.com/file/d/1exTsoqRgrspRxj9k1SC0-kc_fNx8XcEY/view?usp=drive_link"
+    },
+    {
+      "text": "Hamcube.",
+      "url": "https://drive.google.com/file/d/1fMYS8ipLdhe737X59IyQZGkN6o6qjtGF/view?usp=drive_link"
+    },
+    {
+      "text": "Leaping Joosep, the Estonian version of Spider-Man.",
+      "url": "https://drive.google.com/file/d/1FBwFiXOpMRyNNMq_z9kSy3U5LeeVBKOQ/view?usp=drive_link"
+    },
+    {
+      "text": "Mommy.",
+      "url": "https://drive.google.com/file/d/1RiXsoXZSEYc7UQ2FYYUbQtVRai7F_818/view?usp=drive_link"
+    },
+    {
+      "text": "My beautiful log.",
+      "url": "https://drive.google.com/file/d/1_33c0PqKIguwLCY3c3pFz48eHlSVt5U1/view?usp=drive_link"
+    },
+    {
+      "text": "Paying $216,000 for this NFT.",
+      "url": "https://drive.google.com/file/d/1up17vCeBPevjT7dfYnXK74JX-vRPjtay/view?usp=drive_link"
+    },
+    {
+      "text": "Some white lady dying, who cares.",
+      "url": "https://drive.google.com/file/d/1UD-25hqhItt-4SDPF39PLp6s1f0UeqJ3/view?usp=drive_link"
+    },
+    {
+      "text": "Swamp dick.",
+      "url": "https://drive.google.com/file/d/1ak0u0ob7-oToKkkYZaPZGjISVHe7wOo6/view?usp=drive_link"
+    },
+    {
+      "text": "The dick vein on the Snickers bar.",
+      "url": "https://drive.google.com/file/d/1tK7hhSBbC3G-lxNbQ6SlEyWxPjLZHZLh/view?usp=drive_link4"
+    },
+    {
+      "text": "The lizard that bit off Jimmy Carter's penis.",
+      "url": "https://drive.google.com/file/d/1nKElK2gMn1GLZ4WLoftTbHsCGansJCD_/view?usp=drive_link"
+    },
+    {
+      "text": "Tomatoes.",
+      "url": "https://drive.google.com/file/d/1L4XbxYIBOgw8-Qpl40ipdCBCdC6b_46W/view?usp=drive_link"
+    },
+    {
+      "text": "Tucker Carlson.",
+      "url": "https://drive.google.com/file/d/1PCbhplmM6UTmKNNTyD_8nd890tZeRcKf/view?usp=drive_link"
+    },
+    {
+      "text": "Watching you masturbate.",
+      "url": "https://drive.google.com/file/d/1OUEUPyAZFvy9gJaCl-BRO9mb8-LS576F/view?usp=drive_link"
+    },
+    {
+      "text": "What I'm about to do to this stuffed crab.",
+      "url": "https://drive.google.com/file/d/1ZdYf3JjtiwZDnsjAeDO9DxuxTAgvoksm/view?usp=drive_link"
+    }
+  ]
+}
