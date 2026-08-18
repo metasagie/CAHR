@@ -17,7 +17,7 @@ export default function VotingArena({ localPlayerId }: { localPlayerId: string }
   const winner = state.roundWinnerId ? state.players.find(p => p.id === state.roundWinnerId) : null;
 
   return (
-    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6 pb-24 md:pb-20 ${lang === 'ar' ? 'rtl' : 'ltr'}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-6 pb-4 md:pb-8 ${lang === 'ar' ? 'rtl' : 'ltr'}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       {state.submissions.map((sub, idx) => {
         const player = state.players.find(p => p.id === sub.playerId);
         const votesForThis = state.votes.filter(v => v.targetPlayerId === sub.playerId).length;
@@ -42,19 +42,19 @@ export default function VotingArena({ localPlayerId }: { localPlayerId: string }
               {sub.cards.map((card, cidx) => {
                 const image = IMAGE_MAP[card];
                 return (
-                  <div key={cidx} className="flex gap-2 md:gap-3 items-start flex-col sm:flex-row">
-                    <div className="flex gap-2 items-start shrink-0">
+                  <div key={cidx} className="flex gap-3 md:gap-4 items-start flex-col sm:flex-row w-full">
+                    <div className="flex gap-2 items-start flex-1 min-w-0">
                       {sub.cards.length > 1 && (
-                        <span className="bg-slate-900 text-white w-4 h-4 md:w-5 md:h-5 rounded-full flex items-center justify-center text-[8px] md:text-[10px] font-black shrink-0 mt-1">
+                        <span className="bg-slate-900 text-white w-5 h-5 rounded-full flex items-center justify-center text-[9px] md:text-[10px] font-black shrink-0 mt-0.5">
                           {cidx + 1}
                         </span>
                       )}
-                      <p className="text-base md:text-lg font-bold text-slate-800 leading-snug break-words max-w-[200px]">
+                      <p className="text-sm sm:text-base md:text-lg font-bold text-slate-800 leading-relaxed break-words whitespace-normal flex-1 text-left rtl:text-right">
                         {card}
                       </p>
                     </div>
                     {image && (
-                      <div className="flex-1 w-full max-w-[150px] min-h-[100px] relative rounded md:rounded-lg overflow-hidden bg-slate-100 self-center">
+                      <div className="w-full sm:w-36 md:w-44 h-28 sm:h-32 md:h-36 relative rounded-xl overflow-hidden bg-slate-100 shrink-0 self-center sm:self-start">
                         <img src={image} alt="Submission image" className="absolute inset-0 w-full h-full object-contain" referrerPolicy="no-referrer" />
                       </div>
                     )}

@@ -116,17 +116,17 @@ export default function GameBoard({ localPlayerId }: { localPlayerId: string }) 
                 <section className="w-full lg:w-1/3 flex flex-col gap-2 md:gap-4 shrink-0">
                   <span className="text-lime-400/60 font-black uppercase text-[10px] md:text-xs tracking-widest">{t('JUDGEMENT_PROTOCOL')}</span>
                   
-                  <div className="relative flex-1 max-h-[160px] md:max-h-[220px] lg:max-h-[500px]">
+                  <div className="relative flex-1 min-h-[140px] md:min-h-[220px] lg:max-h-[500px]">
                     <div className="absolute top-1 left-1 w-full h-full bg-slate-900/10 rounded-2xl md:rounded-3xl -rotate-1" />
                     
                     <motion.div
                       key={state.blackCard?.text}
                       initial={{ scale: 0.9, opacity: 0, rotateY: 90 }}
                       animate={{ scale: 1, opacity: 1, rotateY: 0 }}
-                      className="relative h-full w-full bg-slate-900 rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-2xl border-2 md:border-4 border-slate-800 flex flex-col justify-between overflow-hidden"
+                      className="relative h-full w-full bg-slate-900 rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-2xl border-2 md:border-4 border-slate-800 flex flex-col justify-between overflow-y-auto no-scrollbar"
                     >
-                      <div className="flex flex-col gap-4 overflow-hidden h-full">
-                        <p className="text-white text-base md:text-xl lg:text-2xl xl:text-3xl font-bold leading-tight flex-shrink-0">
+                      <div className="flex flex-col gap-3 md:gap-4 overflow-hidden h-full">
+                        <p className="text-white text-base md:text-xl lg:text-2xl xl:text-3xl font-bold leading-relaxed flex-shrink-0 text-left rtl:text-right break-words whitespace-normal">
                           {state.blackCard?.text.split('______').map((part, i, arr) => (
                             <span key={i}>
                               {part}
@@ -137,25 +137,25 @@ export default function GameBoard({ localPlayerId }: { localPlayerId: string }) 
                           ))}
                         </p>
                         {blackCardImage && (
-                          <div className="flex-1 w-full flex items-center justify-center min-h-0 relative rounded-lg md:rounded-xl overflow-hidden mt-2 bg-slate-950">
+                          <div className="flex-1 w-full min-h-[100px] md:min-h-[140px] flex items-center justify-center relative rounded-lg md:rounded-xl overflow-hidden mt-2 bg-slate-950">
                              <img src={blackCardImage} alt="Prompt card image" className="absolute inset-0 w-full h-full object-contain" referrerPolicy="no-referrer" />
                           </div>
                         )}
                       </div>
                       
-                      <div className="flex justify-between items-end mt-4 shrink-0">
+                      <div className="flex justify-between items-end mt-2 md:mt-4 shrink-0">
                         <div className="text-[8px] md:text-[10px] text-lime-400/50 font-bold uppercase tracking-[0.2em] flex flex-col gap-0.5 md:gap-1">
                           {state.blackCard?.pick && state.blackCard.pick > 1 && (
                             <span className="text-lime-400">{t('PICK')} {state.blackCard.pick}</span>
                           )}
                           <span>{t('CARDS_AGAINST')} {t('HUMAN_RACE')}</span>
                         </div>
-                        <div className="text-white/10 text-2xl md:text-4xl">🔞</div>
+                        <div className="text-white/10 text-xl md:text-4xl">🔞</div>
                       </div>
                     </motion.div>
                   </div>
 
-                  <div className="mt-2 md:mt-4 bg-slate-900 text-lime-400 px-4 md:px-6 py-2 md:py-3 rounded-xl md:rounded-2xl shadow-lg flex items-center gap-2 md:gap-3">
+                  <div className="mt-1 md:mt-4 bg-slate-900 text-lime-400 px-4 md:px-6 py-2 md:py-3 rounded-xl md:rounded-2xl shadow-lg flex items-center gap-2 md:gap-3">
                     <div className="bg-lime-400 w-2 h-2 md:w-3 md:h-3 rounded-full animate-pulse" />
                     <span className="font-black uppercase text-[10px] md:text-xs tracking-widest whitespace-nowrap overflow-hidden text-ellipsis">
                       {state.status === 'SUBMISSION' ? `WAITING (${submissionsCount}/${totalPlayers})` : 
@@ -165,7 +165,7 @@ export default function GameBoard({ localPlayerId }: { localPlayerId: string }) 
                 </section>
               )}
 
-              <section className="flex-1 min-h-0 flex flex-col gap-4 lg:overflow-y-auto pb-48 lg:pb-0">
+              <section className="flex-1 min-h-0 flex flex-col gap-4 lg:overflow-y-auto">
                 <AnimatePresence mode="wait">
                   {state.status === 'SUBMISSION' && (
                     <motion.div 
